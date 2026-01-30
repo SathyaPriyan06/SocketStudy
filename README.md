@@ -98,6 +98,7 @@ c.close()
 
 ## Client
 <img width="1480" height="242" alt="Screenshot 2026-01-30 112045" src="https://github.com/user-attachments/assets/caea4f23-0f08-4193-9fce-c49a303e998f" />
+
 ## Server
 <img width="1478" height="203" alt="Screenshot 2026-01-30 112104" src="https://github.com/user-attachments/assets/73b9db4c-fea4-4004-a0e9-22eda9465478" />
 
