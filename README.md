@@ -57,28 +57,17 @@ Socket programming finds applications in various domains, including web developm
 ## Program:
 ## Client:
 ```
-# Import socket module 
 import socket             
-
-# Create a socket object 
 s = socket.socket()         
-
-# Define the port on which you want to connect 
 port = 12345                
-
-# connect to the server on local computer 
 s.connect(('127.0.0.1', port)) 
-
-# receive data from the server and decoding to get the string.
 print (s.recv(1024).decode())
-# close the connection 
 s.close()
 ```
 
 ## Server:
 ```
 import socket             
-# next create a socket object 
 s = socket.socket()         
 print ("Socket successfully created")
 port = 12345                
@@ -90,7 +79,6 @@ while True:
   c, addr = s.accept()     
   print ('Got connection from', addr )
   c.send('Thank you for connecting'.encode()) 
-  # Close the connection with the client 
 c.close()
 ```
 
